@@ -26,4 +26,4 @@ Sed vehicula imperdiet consectetur. Nam scelerisque ornare leo et aliquam
 2. Víc než super
 3. 24/7 support
 
-Příklad kódu: `puts 'Hello World'`
+Příklad kódu: `puts 'Test Hello World'`
