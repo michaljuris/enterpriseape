@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   resources :employees
 
   resources :companies do
@@ -19,7 +20,9 @@ Rails.application.routes.draw do
 
   get 'welcome/features'
 
-  resources :invoices
+  resources :invoices do
+    resources :purchases, except: [:index], controller: 'invoices/purchases'
+  end
 
   root to: 'welcome#index'
 
